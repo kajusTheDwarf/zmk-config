@@ -40,7 +40,7 @@
 
             display-name = "1";
             bindings = <
-&kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_SLASH     &trans  &trans                    &trans     &trans        &trans           &trans            &trans             &trans
+&kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_SLASH     &trans  &trans                    &trans     &trans        &trans           &trans            &trans             &kp DEL
 &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_ASTERISK  &trans  &trans                    &trans     &kp DOLLAR    &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
 &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_SUBTRACT  &trans  &trans                    &kp CARET  &kp AMPS      &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp TILDE
 &trans     &kp KP_N0  &kp PERIOD  &kp KP_PLUS      &trans  &trans  &trans    &trans  &trans     &kp MINUS     &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp PIPE
