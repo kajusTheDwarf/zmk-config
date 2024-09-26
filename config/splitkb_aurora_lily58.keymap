@@ -43,9 +43,9 @@
 
             display-name = "1";
             bindings = <
-&kp KP_N7   &kp  KP_N8    &kp KP_N9      &kp KP_SLASH      &kp DE_AE     &kp                             &trans     &trans        &trans           &trans    &trans    &trans
-&kp KP_N4   &kp  KP_N5    &kp KP_N6      &kp KP_ASTERISK   &kp DE_UE     &kp                             &kp F7     &kp F8        &kp F9           &kp F10   &kp F11   &kp F12
-&kp KP_N1   &kp  KP_N2    &kp KP_N3      &kp KP_SUBTRACT   &kp DE_OE     &kp                             &kp CARET  &kp AMPS      &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
+&kp KP_N7   &kp  KP_N8    &kp KP_N9      &kp KP_SLASH      &kp           &kp                             &trans     &trans        &trans           &trans    &trans    &trans
+&kp KP_N4   &kp  KP_N5    &kp KP_N6      &kp KP_ASTERISK   &kp           &kp                             &kp F7     &kp F8        &kp F9           &kp F10   &kp F11   &kp F12
+&kp KP_N1   &kp  KP_N2    &kp KP_N3      &kp KP_SUBTRACT   &kp           &kp                             &kp CARET  &kp AMPS      &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
 &kp         &kp  KP_N0    &kp            &kp KP_PLUS       &kp           &trans        &trans    &trans  &trans     &kp MINUS     &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
                                          &trans            &trans        &trans        &trans    &trans  &trans     &kp K_VOL_DN  &kp K_VOL_UP
             >;
