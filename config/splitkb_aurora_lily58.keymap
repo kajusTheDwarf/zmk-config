@@ -37,7 +37,7 @@
             // | KP_N7 | KP_N8 | KP_N9 | KP_SLASH     | DE_AE|      |                   |      |       |       |      |       |       |
             // | KP_N4 | KP_N5 | KP_N6 | KP_ASTERISK  | DE_UE|      |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
             // | KP_N1 | KP_N2 | KP_N3 | KP_SUBTRACT  | DE_OE|      |                   |  ^   |  &    |  *    |  (   |   )   |   ~   |
-            // |       | KP_N0 |       | KP_PLUS      | DE_SZ|      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
+            // |       | KP_N0 |       | KP_PLUS      | DE_ESZ|      |        |  |       |      |  _    |  +    |  {   |   }   |  "|"  |
             //                         |              | DE_SEC|      |        |  |       |      | vol-  | vol + |
 
             display-name = "1";
@@ -45,7 +45,7 @@
 &kp KP_N7  &kp KP_N8  &kp KP_N9   &kp KP_SLASH     &de_ae  &trans                    &trans     &trans        &trans           &trans            &trans             &kp DEL
 &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_ASTERISK  &de_ue  &trans                    &trans     &kp DOLLAR    &kp EQUAL        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp KP_EQUAL
 &kp KP_N1  &kp KP_N2  &kp KP_N3   &kp KP_SUBTRACT  &de_oe  &trans                    &kp CARET  &kp AMPS      &kp KP_MULTIPLY  &kp LPAR          &kp RPAR           &kp TILDE
-&trans     &kp KP_N0  &kp PERIOD  &kp KP_PLUS      &de_sz  &trans  &trans    &trans  &trans     &kp MINUS     &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp PIPE
+&trans     &kp KP_N0  &kp PERIOD  &kp KP_PLUS      &de_esz  &trans  &trans    &trans  &trans     &kp MINUS     &kp KP_PLUS      &kp LBRC          &kp RBRC           &kp PIPE
                                   &trans           &de_sec  &trans  &trans    &trans  &trans     &kp K_VOL_DN  &kp K_VOL_UP
             >;
         };
