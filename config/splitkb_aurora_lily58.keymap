@@ -6,6 +6,8 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+
+#define HOST_OS 1
 #include "zmk-helpers/helper.h"
 #include "zmk-helpers/unicode-chars/german.dtsi"
 
