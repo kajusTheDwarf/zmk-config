@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A [ZMK](https://zmk.dev) firmware configuration for a **SplitKB Aurora Lily58** split keyboard running on `nice_nano_v2` controllers. This repo holds *only* the user config (keymap, conf, build matrix); the firmware itself, the shield definition, and the build toolchain all live in upstream Zephyr/ZMK modules pulled in at build time.
+A [ZMK](https://zmk.dev) firmware configuration for a **SplitKB Aurora Lily58** split keyboard running on **nice!nano v2** (`nice_nano`) controllers.
+
+> **Board naming (Zephyr 4.1 / Dec 2025):** ZMK moved to board *revisions*. The old `nice_nano_v2` board name no longer exists — use `nice_nano` (which defaults to revision `2.0.0`), or `nice_nano@2.0.0` to be explicit. Using `nice_nano_v2` causes a CI failure: `No board named 'nice_nano_v2' found`. This repo holds *only* the user config (keymap, conf, build matrix); the firmware itself, the shield definition, and the build toolchain all live in upstream Zephyr/ZMK modules pulled in at build time.
 
 ## Building
 
@@ -15,7 +17,7 @@ There is no local build. Firmware is built by GitHub Actions on every push/PR (`
 
 `settings_reset` is also built — flash it to clear bluetooth/settings state when pairing breaks.
 
-To build locally instead, set up the ZMK toolchain and run `west build -s zmk/app -b nice_nano_v2 -- -DSHIELD=splitkb_aurora_lily58_left -DZMK_CONFIG="$PWD/config"` from a west workspace initialized against `config/west.yml`.
+To build locally instead, set up the ZMK toolchain and run `west build -s zmk/app -b nice_nano -- -DSHIELD=splitkb_aurora_lily58_left -DZMK_CONFIG="$PWD/config"` from a west workspace initialized against `config/west.yml`.
 
 ## Layout of what matters
 
